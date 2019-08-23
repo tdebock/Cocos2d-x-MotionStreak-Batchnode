@@ -1,6 +1,5 @@
 //
 //  BatchableMotionStreak.cpp
-//  Tap Transcend 3-mobile
 //
 //  Created by Thibaut De Bock on 8/22/19.
 //
