@@ -32,6 +32,6 @@ for (int i = 0; i < 100; i++) {
 Notes:
 - All children of MotionStreakBatchNode must derive from a BatchableMotionStreak class.
 - The MotionStreakBatchNode class has some asserts for validation on the BatchableMotionStreak child type constraint.
-- If you have MotionStreaks with different textures, add them to different BatchableMotionStreak instances.
+- If you have MotionStreaks with different textures, add them to different MotionStreakBatchNode instances.
 - All children need to share the same texture with the MotionStreakBatchNode.
 - The batchnode does not take openGL vertex limits into account. If you exceed the vertex buffer limit, simply create an additional batch and keep the max vertex count within limits.
