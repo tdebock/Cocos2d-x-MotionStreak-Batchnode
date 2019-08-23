@@ -22,7 +22,7 @@ this->addChild(motionStreakBatchNode, MOTION_STREAK_BATCH_Z_ORDER);
 //Add some test MotionStreak instances
 for (int i = 0; i < 100; i++) {
     BatchableMotionStreak *motionStreak = BatchableMotionStreak::create(0.025f, -1, 1, Color3B::WHITE, "spriteFile.png");
-    motionStreak->addChild(slashStreak1);
+    motionStreakBatchNode->addChild(motionStreak);
 }
 //These are all batched into a single glDrawArrays call now   
 ```
